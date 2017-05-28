@@ -1,5 +1,6 @@
 // Write your code here
-module.exports = function Person(name,age){
+module.exports = Person
+function Person(name,age){
 	this.name=name;
 	this.age=age;
 }
