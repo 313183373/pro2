@@ -6,5 +6,5 @@ function Person(name,age){
 }
 
 Person.prototype.introduce=function(){
-	console.log('My name is '+this.name+'. I am '+this.age+' years old.');
+	return 'My name is '+this.name+'. I am '+this.age+' years old.';
 };
